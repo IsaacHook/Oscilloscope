@@ -18,6 +18,9 @@ The 3dB cut-off point is at 20Mhz (-16.5dB) allowing for a maximum sampling rate
 #### PCB 3D
 ![](/PCB/Top3D.jpg)
 
+#### CPLD design
+![](/CPLD_debug/dso_outputs_full/Print_Preview.jpg)
+
 #### Final Product
 ![](/PCB/Final1.JPG)
 ![](/PCB/Final2.JPG)
