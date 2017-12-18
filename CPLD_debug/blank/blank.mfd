@@ -1,0 +1,11 @@
+MDF Database:  version 1.0
+MDF_INFO | blank | XC9536XL-5-VQ44
+MACROCELL | 0 | 9 | XLXN_2_IBUF$BUF0
+ATTRIBUTES | 264960 | 0
+INPUTS | 1 | XLXN_2
+INPUTP | 1 | 12
+EQ | 1 | 
+   XLXN_3 = XLXN_2;
+
+PIN | XLXN_2 | 64 | 0 | N/A | 12 | 1 | 0 | 9
+PIN | XLXN_3 | 128 | 0 | N/A | 17

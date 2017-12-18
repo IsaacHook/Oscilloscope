@@ -1,0 +1,23 @@
+xst -intstyle ise -ifn "Z:/Desktop/DSO/CPLD_debug/or_gate/or_gate.xst" -ofn "Z:/Desktop/DSO/CPLD_debug/or_gate/or_gate.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-VQ44-5 or_gate.ngc or_gate.ngd  
+cpldfit -intstyle ise -p xc9536xl-5-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper or_gate.ngd 
+XSLTProcess or_gate_build.xml 
+tsim -intstyle ise or_gate or_gate.nga 
+taengine -intstyle ise -f or_gate -w --format html1 -l or_gate_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n or_gate -i or_gate 
+xst -intstyle ise -ifn "Z:/Desktop/DSO/CPLD_debug/or_gate/or_gate.xst" -ofn "Z:/Desktop/DSO/CPLD_debug/or_gate/or_gate.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-VQ44-5 or_gate.ngc or_gate.ngd  
+cpldfit -intstyle ise -p xc9536xl-5-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper or_gate.ngd 
+XSLTProcess or_gate_build.xml 
+tsim -intstyle ise or_gate or_gate.nga 
+hprep6 -s IEEE1149 -n or_gate -i or_gate 
+xst -intstyle ise -ifn "Z:/Desktop/DSO/CPLD_debug/or_gate/or_gate.xst" -ofn "Z:/Desktop/DSO/CPLD_debug/or_gate/or_gate.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-VQ44-5 or_gate.ngc or_gate.ngd  
+cpldfit -intstyle ise -p xc9536xl-5-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper or_gate.ngd 
+XSLTProcess or_gate_build.xml 
+tsim -intstyle ise or_gate or_gate.nga 
+hprep6 -s IEEE1149 -n or_gate -i or_gate 
+xst -intstyle ise -ifn "Z:/Desktop/DSO/CPLD_debug/or_gate/or_gate.xst" -ofn "Z:/Desktop/DSO/CPLD_debug/or_gate/or_gate.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc or_gate.ucf -p xc9536xl-VQ44-5 or_gate.ngc or_gate.ngd  
+xst -intstyle ise -ifn "Z:/Desktop/DSO/CPLD_debug/or_gate/or_gate.xst" -ofn "Z:/Desktop/DSO/CPLD_debug/or_gate/or_gate.syr" 
+xst -intstyle ise -ifn "Z:/Desktop/DSO/CPLD_debug/or_gate/or_gate.xst" -ofn "Z:/Desktop/DSO/CPLD_debug/or_gate/or_gate.syr" 

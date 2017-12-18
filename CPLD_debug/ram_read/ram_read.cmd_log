@@ -1,0 +1,62 @@
+xst -intstyle ise -ifn "Z:/Desktop/DSO/CPLD_debug/ram_read/ram_read.xst" -ofn "Z:/Desktop/DSO/CPLD_debug/ram_read/ram_read.syr" 
+xst -intstyle ise -ifn "Z:/Desktop/DSO/CPLD_debug/ram_read/ram_read.xst" -ofn "Z:/Desktop/DSO/CPLD_debug/ram_read/ram_read.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-VQ44-5 ram_read.ngc ram_read.ngd  
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-VQ44-5 ram_read.ngc ram_read.ngd  
+cpldfit -intstyle ise -p xc9536xl-5-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper ram_read.ngd 
+XSLTProcess ram_read_build.xml 
+tsim -intstyle ise ram_read ram_read.nga 
+taengine -intstyle ise -f ram_read -w --format html1 -l ram_read_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n ram_read -i ram_read 
+xst -intstyle ise -ifn "Z:/Desktop/DSO/CPLD_debug/ram_read/ram_read.xst" -ofn "Z:/Desktop/DSO/CPLD_debug/ram_read/ram_read.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc ram_read.ucf -p xc9536xl-VQ44-5 ram_read.ngc ram_read.ngd  
+cpldfit -intstyle ise -p xc9536xl-5-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper ram_read.ngd 
+XSLTProcess ram_read_build.xml 
+tsim -intstyle ise ram_read ram_read.nga 
+hprep6 -s IEEE1149 -n ram_read -i ram_read 
+xst -intstyle ise -ifn "Z:/Desktop/DSO/CPLD_debug/ram_read/ram_read.xst" -ofn "Z:/Desktop/DSO/CPLD_debug/ram_read/ram_read.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc ram_read.ucf -p xc9536xl-VQ44-5 ram_read.ngc ram_read.ngd  
+ngdbuild -intstyle ise -dd _ngo -uc ram_read.ucf -p xc9536xl-VQ44-5 ram_read.ngc ram_read.ngd  
+xst -intstyle ise -ifn "Z:/Desktop/DSO/CPLD_debug/ram_read/ram_read.xst" -ofn "Z:/Desktop/DSO/CPLD_debug/ram_read/ram_read.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc ram_read.ucf -p xc9536xl-VQ44-5 ram_read.ngc ram_read.ngd  
+cpldfit -intstyle ise -p xc9536xl-5-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper ram_read.ngd 
+XSLTProcess ram_read_build.xml 
+tsim -intstyle ise ram_read ram_read.nga 
+hprep6 -s IEEE1149 -n ram_read -i ram_read 
+xst -intstyle ise -ifn "Z:/Desktop/DSO/CPLD_debug/ram_read/ram_read.xst" -ofn "Z:/Desktop/DSO/CPLD_debug/ram_read/ram_read.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc ram_read.ucf -p xc9536xl-VQ44-5 ram_read.ngc ram_read.ngd  
+cpldfit -intstyle ise -p xc9536xl-5-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper ram_read.ngd 
+XSLTProcess ram_read_build.xml 
+tsim -intstyle ise ram_read ram_read.nga 
+hprep6 -s IEEE1149 -n ram_read -i ram_read 
+ngdbuild -intstyle ise -dd _ngo -uc ram_read.ucf -p xc9536xl-VQ44-5 ram_read.ngc ram_read.ngd  
+cpldfit -intstyle ise -p xc9536xl-5-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper ram_read.ngd 
+XSLTProcess ram_read_build.xml 
+tsim -intstyle ise ram_read ram_read.nga 
+hprep6 -s IEEE1149 -n ram_read -i ram_read 
+xst -intstyle ise -ifn "Z:/Desktop/DSO/CPLD_debug/ram_read/ram_read.xst" -ofn "Z:/Desktop/DSO/CPLD_debug/ram_read/ram_read.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc ram_read.ucf -p xc9536xl-VQ44-5 ram_read.ngc ram_read.ngd  
+cpldfit -intstyle ise -p xc9536xl-5-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper ram_read.ngd 
+XSLTProcess ram_read_build.xml 
+tsim -intstyle ise ram_read ram_read.nga 
+hprep6 -s IEEE1149 -n ram_read -i ram_read 
+xst -intstyle ise -ifn "Z:/Desktop/DSO/CPLD_debug/ram_read/ram_read.xst" -ofn "Z:/Desktop/DSO/CPLD_debug/ram_read/ram_read.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc ram_read.ucf -p xc9536xl-VQ44-5 ram_read.ngc ram_read.ngd  
+cpldfit -intstyle ise -p xc9536xl-5-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper ram_read.ngd 
+XSLTProcess ram_read_build.xml 
+tsim -intstyle ise ram_read ram_read.nga 
+hprep6 -s IEEE1149 -n ram_read -i ram_read 
+ngdbuild -intstyle ise -dd _ngo -uc ram_read.ucf -p xc9536xl-VQ44-5 ram_read.ngc ram_read.ngd  
+xst -intstyle ise -ifn "Z:/Desktop/DSO/CPLD_debug/ram_read/ram_read.xst" -ofn "Z:/Desktop/DSO/CPLD_debug/ram_read/ram_read.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc ram_read.ucf -p xc9536xl-VQ44-5 ram_read.ngc ram_read.ngd  
+cpldfit -intstyle ise -p xc9536xl-5-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper ram_read.ngd 
+XSLTProcess ram_read_build.xml 
+tsim -intstyle ise ram_read ram_read.nga 
+hprep6 -s IEEE1149 -n ram_read -i ram_read 
+xst -intstyle ise -ifn "Z:/Desktop/DSO/CPLD_debug/ram_read/ram_read.xst" -ofn "Z:/Desktop/DSO/CPLD_debug/ram_read/ram_read.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc ram_read.ucf -p xc9536xl-VQ44-5 ram_read.ngc ram_read.ngd  
+ngdbuild -intstyle ise -dd _ngo -uc ram_read.ucf -p xc9536xl-VQ44-5 ram_read.ngc ram_read.ngd  
+cpldfit -intstyle ise -p xc9536xl-5-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper ram_read.ngd 
+XSLTProcess ram_read_build.xml 
+tsim -intstyle ise ram_read ram_read.nga 
+hprep6 -s IEEE1149 -n ram_read -i ram_read 
+hprep6 -s IEEE1149 -n ram_read -i ram_read 

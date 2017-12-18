@@ -1,0 +1,12 @@
+V3 7
+FL //mac/home/Desktop/DSO/CPLD_debug/blank/blank.vhf 2017/12/07.18:15:18 P.20131013
+EN work/blank 1512518212 FL //mac/home/Desktop/DSO/CPLD_debug/blank/blank.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/blank/BEHAVIORAL 1512518213 \
+      FL //mac/home/Desktop/DSO/CPLD_debug/blank/blank.vhf EN work/blank 1512518212
+FL //mac/home/Desktop/DSO/CPLD_debug/blank/in_out.vhd 2017/12/07.18:20:06 P.20131013
+EN work/in_out 1512631384 FL //mac/home/Desktop/DSO/CPLD_debug/blank/in_out.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/in_out/Behavioral 1512631385 \
+      FL //mac/home/Desktop/DSO/CPLD_debug/blank/in_out.vhd EN work/in_out 1512631384

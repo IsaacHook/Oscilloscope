@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=Z:\Desktop\DSO\CPLD\impact.xsl
+OUTFILE=Z:\Desktop\DSO\CPLD\impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=Z:\Desktop\DSO\CPLD
+LICENSE=iMPACT
+USER_INFO=iMPACT

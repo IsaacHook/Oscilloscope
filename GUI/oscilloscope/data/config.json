@@ -1,0 +1,27 @@
+{  
+  "ScreenWidth": 800,
+  "ScreenHeight": 600,
+  
+  "BackgroundColourRed": 0,
+  "BackgroundColourGreen": 0,
+  "BackgroundColourBlue": 0,
+  "ForegroundColourRed": 100,
+  "ForegroundColourGreen": 100,
+  "ForegroundColourBlue": 80,
+  "LineColourRed": 0,
+  "LineColourGreen": 255,
+  "LineColourBlue": 0,
+  "ButtonOnColourRed": 20,
+  "ButtonOnColourGreen": 200,
+  "ButtonOnColourBlue": 20,
+  "ButtonOffColourRed": 10,
+  "ButtonOffColourGreen": 100,
+  "ButtonOffColourBlue": 10,
+
+  "Grid1ColourRed": 0,
+  "Grid1ColourGreen": 100,
+  "Grid1ColourBlue": 0,
+  "Grid2ColourRed": 0,
+  "Grid2ColourGreen": 60,
+  "Grid2ColourBlue": 0,  
+}

@@ -1,0 +1,4 @@
+EN blank NULL //mac/home/Desktop/DSO/CPLD_debug/blank/blank.vhf sub00/vhpl00 1512518212
+AR blank behavioral //mac/home/Desktop/DSO/CPLD_debug/blank/blank.vhf sub00/vhpl01 1512518213
+AR in_out behavioral //mac/home/Desktop/DSO/CPLD_debug/blank/in_out.vhd sub00/vhpl03 1512631385
+EN in_out NULL //mac/home/Desktop/DSO/CPLD_debug/blank/in_out.vhd sub00/vhpl02 1512631384

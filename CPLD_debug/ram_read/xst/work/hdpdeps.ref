@@ -1,0 +1,9 @@
+V3 9
+FL //mac/home/Desktop/DSO/CPLD_debug/ram_read/ram_read.vhf 2017/12/17.11:41:36 P.20131013
+EN work/ram_read 1513471302 \
+      FL //mac/home/Desktop/DSO/CPLD_debug/ram_read/ram_read.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/ram_read/BEHAVIORAL 1513471303 \
+      FL //mac/home/Desktop/DSO/CPLD_debug/ram_read/ram_read.vhf EN work/ram_read 1513471302 \
+      CP XOR2 CP INV CP AND2 CP OR2 CP GND

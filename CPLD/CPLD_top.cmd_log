@@ -1,0 +1,127 @@
+xst -intstyle ise -ifn "E:/Dropbox/UoM/ELEN90053 - Electronic System Design/2014/Project/CPLD/VHDL/ESD_CPLD_2014/CPLD_top.xst" -ofn "E:/Dropbox/UoM/ELEN90053 - Electronic System Design/2014/Project/CPLD/VHDL/ESD_CPLD_2014/CPLD_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-VQ44-10 "CPLD_top.ngc" CPLD_top.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper CPLD_top.ngd 
+XSLTProcess CPLD_top_build.xml 
+tsim -intstyle ise CPLD_top CPLD_top.nga 
+taengine -intstyle ise -f CPLD_top -w --format html1 -l CPLD_top_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n CPLD_top -i CPLD_top 
+sch2sym -intstyle ise -family xc9500xl -refsym CPLD_top {E:/Dropbox/UoM/ELEN90053 - Electronic System Design/2014/Project/CPLD/VHDL/ESD_CPLD_2014/CPLD_top.sch} {E:/Dropbox/UoM/ELEN90053 - Electronic System Design/2014/Project/CPLD/VHDL/ESD_CPLD_2014/CPLD_top.sym} 
+xst -intstyle ise -ifn "E:/Dropbox/UoM/ELEN90053 - Electronic System Design/2014/Project/CPLD/VHDL/ESD_CPLD_2014/CPLD_top.xst" -ofn "E:/Dropbox/UoM/ELEN90053 - Electronic System Design/2014/Project/CPLD/VHDL/ESD_CPLD_2014/CPLD_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-VQ44-10 "CPLD_top.ngc" CPLD_top.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper CPLD_top.ngd 
+XSLTProcess CPLD_top_build.xml 
+tsim -intstyle ise CPLD_top CPLD_top.nga 
+taengine -intstyle ise -f CPLD_top -w --format html1 -l CPLD_top_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n CPLD_top -i CPLD_top 
+ngdbuild -intstyle ise -dd _ngo -uc CPLD_top.ucf -p xc9536xl-VQ44-10 "CPLD_top.ngc" CPLD_top.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper CPLD_top.ngd 
+XSLTProcess CPLD_top_build.xml 
+tsim -intstyle ise CPLD_top CPLD_top.nga 
+hprep6 -s IEEE1149 -n CPLD_top -i CPLD_top 
+ngdbuild -intstyle ise -dd _ngo -uc CPLD_top.ucf -p xc9536xl-VQ44-10 "CPLD_top.ngc" CPLD_top.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper CPLD_top.ngd 
+XSLTProcess CPLD_top_build.xml 
+tsim -intstyle ise CPLD_top CPLD_top.nga 
+hprep6 -s IEEE1149 -n CPLD_top -i CPLD_top 
+cpldfit -intstyle ise -p xc9536xl-10-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused ground -power std -terminate keeper CPLD_top.ngd 
+XSLTProcess CPLD_top_build.xml 
+tsim -intstyle ise CPLD_top CPLD_top.nga 
+hprep6 -s IEEE1149 -n CPLD_top -i CPLD_top 
+xst -intstyle ise -ifn "E:/Dropbox/UoM/ELEN90053 - Electronic System Design/2014/Project/CPLD/VHDL/ESD_CPLD_2014/CPLD_top.xst" -ofn "E:/Dropbox/UoM/ELEN90053 - Electronic System Design/2014/Project/CPLD/VHDL/ESD_CPLD_2014/CPLD_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc CPLD_top.ucf -p xc9536xl-VQ44-10 "CPLD_top.ngc" CPLD_top.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused ground -power std -terminate keeper CPLD_top.ngd 
+XSLTProcess CPLD_top_build.xml 
+tsim -intstyle ise CPLD_top CPLD_top.nga 
+xst -intstyle ise -ifn "E:/Dropbox/UoM/ELEN90053 - Electronic System Design/2014/Project/CPLD/VHDL/ESD_CPLD_2014/CPLD_top.xst" -ofn "E:/Dropbox/UoM/ELEN90053 - Electronic System Design/2014/Project/CPLD/VHDL/ESD_CPLD_2014/CPLD_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc CPLD_top.ucf -p xc9536xl-VQ44-10 "CPLD_top.ngc" CPLD_top.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused ground -power std -terminate keeper CPLD_top.ngd 
+XSLTProcess CPLD_top_build.xml 
+tsim -intstyle ise CPLD_top CPLD_top.nga 
+hprep6 -s IEEE1149 -n CPLD_top -i CPLD_top 
+xst -intstyle ise -ifn "E:/Dropbox/UoM/ELEN90053 - Electronic System Design/2014/Project/CPLD/VHDL/ESD_CPLD_2014/CPLD_top.xst" -ofn "E:/Dropbox/UoM/ELEN90053 - Electronic System Design/2014/Project/CPLD/VHDL/ESD_CPLD_2014/CPLD_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc CPLD_top.ucf -p xc9536xl-VQ44-10 "CPLD_top.ngc" CPLD_top.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused ground -power std -terminate keeper CPLD_top.ngd 
+XSLTProcess CPLD_top_build.xml 
+tsim -intstyle ise CPLD_top CPLD_top.nga 
+hprep6 -s IEEE1149 -n CPLD_top -i CPLD_top 
+xst -intstyle ise -ifn "D:/Dropbox/UoM/ELEN90053 - Electronic System Design/2014/Project/CPLD/VHDL/ESD_CPLD_2014/CPLD_top.xst" -ofn "D:/Dropbox/UoM/ELEN90053 - Electronic System Design/2014/Project/CPLD/VHDL/ESD_CPLD_2014/CPLD_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc CPLD_top.ucf -p xc9536xl-VQ44-10 "CPLD_top.ngc" CPLD_top.ngd  
+ngdbuild -intstyle ise -dd _ngo -uc CPLD_top.ucf -p xc9536xl-VQ44-10 "CPLD_top.ngc" CPLD_top.ngd  
+ngdbuild -intstyle ise -dd _ngo -uc CPLD_top.ucf -p xc9536xl-VQ44-10 "CPLD_top.ngc" CPLD_top.ngd  
+sch2sym -intstyle ise -family xc9500xl -refsym CPLD_top {D:/Dropbox/UoM/ELEN90053 - Electronic System Design/2014/Project/CPLD/VHDL/ESD_CPLD_2014/CPLD_top.sch} {D:/Dropbox/UoM/ELEN90053 - Electronic System Design/2014/Project/CPLD/VHDL/ESD_CPLD_2014/CPLD_top.sym} 
+ngdbuild -intstyle ise -dd _ngo -uc CPLD_top.ucf -p xc9536xl-VQ44-10 "CPLD_top.ngc" CPLD_top.ngd  
+ngdbuild -intstyle ise -dd _ngo -uc CPLD_top.ucf -p xc9536xl-VQ44-10 "CPLD_top.ngc" CPLD_top.ngd  
+ngdbuild -intstyle ise -dd _ngo -uc CPLD_top.ucf -p xc9536xl-VQ44-10 "CPLD_top.ngc" CPLD_top.ngd  
+xst -intstyle ise -ifn "D:/Dropbox/UoM/ELEN90053 - Electronic System Design/2014/Project/CPLD/VHDL/ESD_CPLD_2014/CPLD_top.xst" -ofn "D:/Dropbox/UoM/ELEN90053 - Electronic System Design/2014/Project/CPLD/VHDL/ESD_CPLD_2014/CPLD_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc CPLD_top.ucf -p xc9536xl-VQ44-10 "CPLD_top.ngc" CPLD_top.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused ground -power std -terminate keeper CPLD_top.ngd 
+XSLTProcess CPLD_top_build.xml 
+tsim -intstyle ise CPLD_top CPLD_top.nga 
+hprep6 -s IEEE1149 -n CPLD_top -i CPLD_top 
+pin2ucf CPLD_top.gyd -o {D:/Dropbox/UoM/ELEN90053 - Electronic System Design/2014/Project/CPLD/VHDL/ESD_CPLD_2014/CPLD_top.ucf} -r CPLD_top.lck 
+xst -intstyle ise -ifn "D:/Dropbox/UoM/ELEN90053 - Electronic System Design/2014/Project/CPLD/VHDL/ESD_CPLD_2014/CPLD_top.xst" -ofn "D:/Dropbox/UoM/ELEN90053 - Electronic System Design/2014/Project/CPLD/VHDL/ESD_CPLD_2014/CPLD_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc CPLD_top.ucf -p xc9536xl-VQ44-10 "CPLD_top.ngc" CPLD_top.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused ground -power std -terminate keeper CPLD_top.ngd 
+XSLTProcess CPLD_top_build.xml 
+tsim -intstyle ise CPLD_top CPLD_top.nga 
+hprep6 -s IEEE1149 -n CPLD_top -i CPLD_top 
+xst -intstyle ise -ifn "D:/Dropbox/UoM/ELEN90053 - Electronic System Design/2014/Project/CPLD/VHDL/ESD_CPLD_2014/CPLD_top.xst" -ofn "D:/Dropbox/UoM/ELEN90053 - Electronic System Design/2014/Project/CPLD/VHDL/ESD_CPLD_2014/CPLD_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc CPLD_top.ucf -p xc9536xl-VQ44-10 "CPLD_top.ngc" CPLD_top.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused ground -power std -terminate keeper CPLD_top.ngd 
+XSLTProcess CPLD_top_build.xml 
+tsim -intstyle ise CPLD_top CPLD_top.nga 
+hprep6 -s IEEE1149 -n CPLD_top -i CPLD_top 
+xst -intstyle ise -ifn "D:/Dropbox/UoM/ELEN90053 - Electronic System Design/2014/Project/CPLD/VHDL/ESD_CPLD_2014/CPLD_top.xst" -ofn "D:/Dropbox/UoM/ELEN90053 - Electronic System Design/2014/Project/CPLD/VHDL/ESD_CPLD_2014/CPLD_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc CPLD_top.ucf -p xc9536xl-VQ44-10 "CPLD_top.ngc" CPLD_top.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused ground -power std -terminate keeper CPLD_top.ngd 
+XSLTProcess CPLD_top_build.xml 
+tsim -intstyle ise CPLD_top CPLD_top.nga 
+hprep6 -s IEEE1149 -n CPLD_top -i CPLD_top 
+xst -intstyle ise -ifn "D:/Dropbox/UoM/ELEN90053 - Electronic System Design/2014/Project/CPLD/VHDL/ESD_CPLD_2014/CPLD_top.xst" -ofn "D:/Dropbox/UoM/ELEN90053 - Electronic System Design/2014/Project/CPLD/VHDL/ESD_CPLD_2014/CPLD_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc CPLD_top.ucf -p xc9536xl-VQ44-5 "CPLD_top.ngc" CPLD_top.ngd  
+cpldfit -intstyle ise -p xc9536xl-5-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused ground -power std -terminate keeper CPLD_top.ngd 
+XSLTProcess CPLD_top_build.xml 
+tsim -intstyle ise CPLD_top CPLD_top.nga 
+hprep6 -s IEEE1149 -n CPLD_top -i CPLD_top 
+xst -intstyle ise -ifn "Z:/Desktop/DSO/CPLD/CPLD_top.xst" -ofn "Z:/Desktop/DSO/CPLD/CPLD_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc CPLD_top.ucf -p xc9536xl-VQ44-5 CPLD_top.ngc CPLD_top.ngd  
+cpldfit -intstyle ise -p xc9536xl-5-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused ground -power std -terminate keeper CPLD_top.ngd 
+XSLTProcess CPLD_top_build.xml 
+tsim -intstyle ise CPLD_top CPLD_top.nga 
+hprep6 -s IEEE1149 -n CPLD_top -i CPLD_top 
+xst -intstyle ise -ifn "Z:/Desktop/DSO/CPLD/CPLD_top.xst" -ofn "Z:/Desktop/DSO/CPLD/CPLD_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc CPLD_top.ucf -p xc9536xl-VQ44-5 CPLD_top.ngc CPLD_top.ngd  
+cpldfit -intstyle ise -p xc9536xl-5-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused ground -power std -terminate keeper CPLD_top.ngd 
+XSLTProcess CPLD_top_build.xml 
+tsim -intstyle ise CPLD_top CPLD_top.nga 
+hprep6 -s IEEE1149 -n CPLD_top -i CPLD_top 
+sch2hdl -intstyle ise -family xc9500xl -flat -suppress -vhdl CPLD_top.vhf -w Z:/Desktop/DSO/CPLD/CPLD_top.sch 
+xst -intstyle ise -ifn "Z:/Desktop/DSO/CPLD/CPLD_top.xst" -ofn "Z:/Desktop/DSO/CPLD/CPLD_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc CPLD_top.ucf -p xc9536xl-VQ44-5 CPLD_top.ngc CPLD_top.ngd  
+ngdbuild -intstyle ise -dd _ngo -uc CPLD_top.ucf -p xc9536xl-VQ44-5 CPLD_top.ngc CPLD_top.ngd  
+cpldfit -intstyle ise -p xc9536xl-5-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused ground -power std -terminate keeper CPLD_top.ngd 
+XSLTProcess CPLD_top_build.xml 
+tsim -intstyle ise CPLD_top CPLD_top.nga 
+hprep6 -s IEEE1149 -n CPLD_top -i CPLD_top 
+xst -intstyle ise -ifn "Z:/Desktop/DSO/CPLD/CPLD_top.xst" -ofn "Z:/Desktop/DSO/CPLD/CPLD_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc CPLD_top.ucf -p xc9536xl-VQ44-5 CPLD_top.ngc CPLD_top.ngd  
+cpldfit -intstyle ise -p xc9536xl-5-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused ground -power std -terminate keeper CPLD_top.ngd 
+XSLTProcess CPLD_top_build.xml 
+tsim -intstyle ise CPLD_top CPLD_top.nga 
+hprep6 -s IEEE1149 -n CPLD_top -i CPLD_top 
+ngdbuild -intstyle ise -dd _ngo -uc CPLD_top.ucf -p xc9536xl-VQ44-5 CPLD_top.ngc CPLD_top.ngd  
+cpldfit -intstyle ise -p xc9536xl-5-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused ground -power std -terminate keeper CPLD_top.ngd 
+XSLTProcess CPLD_top_build.xml 
+tsim -intstyle ise CPLD_top CPLD_top.nga 
+hprep6 -s IEEE1149 -n CPLD_top -i CPLD_top 
+ngdbuild -intstyle ise -dd _ngo -uc CPLD_top.ucf -p xc9536xl-VQ44-5 CPLD_top.ngc CPLD_top.ngd  
+cpldfit -intstyle ise -p xc9536xl-5-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused ground -power std -terminate keeper CPLD_top.ngd 
+XSLTProcess CPLD_top_build.xml 
+tsim -intstyle ise CPLD_top CPLD_top.nga 
+hprep6 -s IEEE1149 -n CPLD_top -i CPLD_top 
+xst -intstyle ise -ifn "Z:/Desktop/DSO/CPLD/CPLD_top.xst" -ofn "Z:/Desktop/DSO/CPLD/CPLD_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc CPLD_top.ucf -p xc9536xl-VQ44-5 CPLD_top.ngc CPLD_top.ngd  
+cpldfit -intstyle ise -p xc9536xl-5-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused ground -power std -terminate keeper CPLD_top.ngd 
+XSLTProcess CPLD_top_build.xml 
+tsim -intstyle ise CPLD_top CPLD_top.nga 
+hprep6 -s IEEE1149 -n CPLD_top -i CPLD_top 

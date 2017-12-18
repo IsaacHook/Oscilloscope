@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "Z:/Desktop/DSO/CPLD_debug/blank/in_out.xst" -ofn "Z:/Desktop/DSO/CPLD_debug/blank/in_out.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc in_out.ucf -p xc9536xl-VQ44-5 in_out.ngc in_out.ngd  
+ngdbuild -intstyle ise -dd _ngo -uc in_out.ucf -p xc9536xl-VQ44-5 in_out.ngc in_out.ngd  
+cpldfit -intstyle ise -p xc9536xl-5-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused ground -power std -terminate keeper in_out.ngd 
+XSLTProcess in_out_build.xml 
+tsim -intstyle ise in_out in_out.nga 
+taengine -intstyle ise -f in_out -w --format html1 -l in_out_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n in_out -i in_out 
+ngdbuild -intstyle ise -dd _ngo -uc in_out.ucf -p xc9536xl-VQ44-5 in_out.ngc in_out.ngd  
+cpldfit -intstyle ise -p xc9536xl-5-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused ground -power std -terminate keeper in_out.ngd 
+XSLTProcess in_out_build.xml 
+tsim -intstyle ise in_out in_out.nga 
+hprep6 -s IEEE1149 -n in_out -i in_out 

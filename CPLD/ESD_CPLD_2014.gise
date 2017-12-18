@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="ESD_CPLD_2014.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="CPLD_top.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="CPLD_top.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_GYD" xil_pn:name="CPLD_top.gyd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_JEDEC" xil_pn:name="CPLD_top.jed"/>
+    <file xil_pn:fileType="FILE_JHD" xil_pn:name="CPLD_top.jhd"/>
+    <file xil_pn:fileType="FILE_LFP" xil_pn:name="CPLD_top.lfp"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="CPLD_top.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MFD" xil_pn:name="CPLD_top.mfd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGA" xil_pn:name="CPLD_top.nga"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="CPLD_top.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="CPLD_top.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="CPLD_top.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="CPLD_top.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PNX" xil_pn:name="CPLD_top.pnx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CPLD_top.prj"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="CPLD_top.rpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="CPLD_top.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="CPLD_top.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="CPLD_top.syr"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="CPLD_top.tim"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="CPLD_top.tspec"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="CPLD_top.vhf"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VM6" xil_pn:name="CPLD_top.vm6"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="CPLD_top.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="CPLD_top.xst"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="CPLD_top_build.xml"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="CPLD_top_envsettings.html"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="CPLD_top_html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="CPLD_top_ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="CPLD_top_pad.csv"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="CPLD_top_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CPLD_top_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="CPLD_top_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="_impactbatch.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_CMD" xil_pn:name="ise_impact.cmd"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1407149134" xil_pn:name="TRANEXT_compLibraries_CPLD" xil_pn:start_ts="1407149133">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1414054182" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1414054182">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1513463395" xil_pn:in_ck="3512474566882442177" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="8243564978077586763" xil_pn:start_ts="1513463391">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="CPLD_top.vhf"/>
+    </transform>
+    <transform xil_pn:end_ts="1513463410" xil_pn:in_ck="3512474566882445607" xil_pn:name="TRANEXT_xstsynthesize_xc9500xl" xil_pn:prop_ck="3996286742397709786" xil_pn:start_ts="1513463395">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="CPLD_top.jhd"/>
+      <outfile xil_pn:name="CPLD_top.lso"/>
+      <outfile xil_pn:name="CPLD_top.ngc"/>
+      <outfile xil_pn:name="CPLD_top.ngr"/>
+      <outfile xil_pn:name="CPLD_top.prj"/>
+      <outfile xil_pn:name="CPLD_top.stx"/>
+      <outfile xil_pn:name="CPLD_top.syr"/>
+      <outfile xil_pn:name="CPLD_top.xst"/>
+      <outfile xil_pn:name="CPLD_top_vhdl.prj"/>
+      <outfile xil_pn:name="CPLD_top_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1512715855" xil_pn:in_ck="3512474566882444353" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="4784892102581891831" xil_pn:start_ts="1512715855">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1513463423" xil_pn:in_ck="7089903716594465724" xil_pn:name="TRAN_ngdbuild" xil_pn:prop_ck="4127910281116314221" xil_pn:start_ts="1513463410">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="CPLD_top.bld"/>
+      <outfile xil_pn:name="CPLD_top.ngd"/>
+      <outfile xil_pn:name="CPLD_top_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1513463439" xil_pn:in_ck="3512474566882436860" xil_pn:name="TRANEXT_vm6File_xc9500xl" xil_pn:prop_ck="-4728833723675930990" xil_pn:start_ts="1513463423">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="CPLD_top.gyd"/>
+      <outfile xil_pn:name="CPLD_top.mfd"/>
+      <outfile xil_pn:name="CPLD_top.nga"/>
+      <outfile xil_pn:name="CPLD_top.pad"/>
+      <outfile xil_pn:name="CPLD_top.pnx"/>
+      <outfile xil_pn:name="CPLD_top.rpt"/>
+      <outfile xil_pn:name="CPLD_top.tim"/>
+      <outfile xil_pn:name="CPLD_top.tspec"/>
+      <outfile xil_pn:name="CPLD_top.vm6"/>
+      <outfile xil_pn:name="CPLD_top.xml"/>
+      <outfile xil_pn:name="CPLD_top_build.xml"/>
+      <outfile xil_pn:name="CPLD_top_html"/>
+      <outfile xil_pn:name="CPLD_top_pad.csv"/>
+    </transform>
+    <transform xil_pn:end_ts="1513463444" xil_pn:in_ck="3512474566882445724" xil_pn:name="TRANEXT_crtProg_xc9500" xil_pn:prop_ck="-6294026017969277533" xil_pn:start_ts="1513463439">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="CPLD_top.jed"/>
+    </transform>
+    <transform xil_pn:end_ts="1414057691" xil_pn:name="TRAN_impactProgrammingTool_CPLD" xil_pn:start_ts="1414057691">
+      <status xil_pn:value="AbortedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForced"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="_impactbatch.log"/>
+      <outfile xil_pn:name="ise_impact.cmd"/>
+    </transform>
+    <transform xil_pn:end_ts="1414054466" xil_pn:name="TRAN_configureTargetDevice_CPLD" xil_pn:start_ts="1414054466">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_impactbatch.log"/>
+      <outfile xil_pn:name="ise_impact.cmd"/>
+    </transform>
+    <transform xil_pn:end_ts="1407145831" xil_pn:name="TRAN_timRpt" xil_pn:start_ts="1407145829">
+      <status xil_pn:value="AbortedRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+    </transform>
+    <transform xil_pn:end_ts="1413869431" xil_pn:name="TRAN_lockPins" xil_pn:start_ts="1413869429">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+    </transform>
+    <transform xil_pn:name="TRAN_createTimingConstraints">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+  </transforms>
+
+</generated_project>

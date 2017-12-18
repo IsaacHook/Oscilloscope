@@ -1,0 +1,24 @@
+Pin Freeze File:  version P.20131013
+
+9536XL44VQ XC9536XL-5-VQ44
+ENABLE S:PIN1
+FAST_CLK S:PIN44
+XLXN_1 S:PIN3
+CLEAR_COUNT S:PIN31
+COUNTER_CLK S:PIN29
+ENABLE_COUNT S:PIN30
+FILL_COMPLETE S:PIN28
+RAM_READ_OUT S:PIN6
+XLXN_2 S:PIN41
+
+
+;The remaining section of the .gyd file is for documentation purposes only.
+;It shows where your internal equations were placed in the last successful fit.
+
+PARTITION FB1_2 XLXN_2_OBUF
+PARTITION FB1_10 RAM_READ_OUT_OBUF
+
+PARTITION FB2_8 CLEAR_COUNT_OBUF ENABLE_COUNT_OBUF COUNTER_CLK_OBUF FILL_COMPLETE_OBUF
+		
+
+

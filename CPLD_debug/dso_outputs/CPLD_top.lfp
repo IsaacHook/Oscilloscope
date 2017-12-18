@@ -1,0 +1,5 @@
+# begin LFP file Z:\Desktop\DSO\CPLD_debug\dso_outputs\CPLD_top.lfp
+designfile CPLD_top.vhd
+parttype xc9536xl-vq44-5
+bus_delimiter 0;
+set_busdelim_onsave 1;

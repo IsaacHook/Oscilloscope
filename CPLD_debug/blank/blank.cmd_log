@@ -1,0 +1,81 @@
+xst -intstyle ise -ifn "Z:/Desktop/DSO/CPLD_debug/blank/blank.xst" -ofn "Z:/Desktop/DSO/CPLD_debug/blank/blank.syr" 
+xst -intstyle ise -ifn "Z:/Desktop/DSO/CPLD_debug/blank/blank.xst" -ofn "Z:/Desktop/DSO/CPLD_debug/blank/blank.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-VQ44-5 blank.ngc blank.ngd  
+cpldfit -intstyle ise -p xc9536xl-5-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper blank.ngd 
+XSLTProcess blank_build.xml 
+tsim -intstyle ise blank blank.nga 
+taengine -intstyle ise -f blank -w --format html1 -l blank_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n blank -i blank 
+ibiswriter -intstyle ise -g VCCIO:LVTTL blank.pnx blank.ibs 
+sch2hdl -intstyle ise -family xc9500xl -flat -suppress -vhdl blank_drc.vhf -w Z:/Desktop/DSO/CPLD_debug/blank/blank.sch 
+xst -intstyle ise -ifn "Z:/Desktop/DSO/CPLD_debug/blank/blank.xst" -ofn "Z:/Desktop/DSO/CPLD_debug/blank/blank.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-VQ44-5 blank.ngc blank.ngd  
+cpldfit -intstyle ise -p xc9536xl-5-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper blank.ngd 
+XSLTProcess blank_build.xml 
+tsim -intstyle ise blank blank.nga 
+hprep6 -s IEEE1149 -n blank -i blank 
+xst -intstyle ise -ifn "Z:/Desktop/DSO/CPLD_debug/blank/blank.xst" -ofn "Z:/Desktop/DSO/CPLD_debug/blank/blank.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9536xl-VQ44-5 blank.ngc blank.ngd  
+cpldfit -intstyle ise -p xc9536xl-5-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper blank.ngd 
+XSLTProcess blank_build.xml 
+ngdbuild -intstyle ise -dd _ngo -uc blank.ucf -p xc9536xl-VQ44-5 blank.ngc blank.ngd  
+cpldfit -intstyle ise -p xc9536xl-5-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper blank.ngd 
+XSLTProcess blank_build.xml 
+cpldfit -intstyle ise -p xc9536xl-5-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper blank.ngd 
+XSLTProcess blank_build.xml 
+xst -intstyle ise -ifn "Z:/Desktop/DSO/CPLD_debug/blank/blank.xst" -ofn "Z:/Desktop/DSO/CPLD_debug/blank/blank.syr" 
+xst -intstyle ise -ifn "Z:/Desktop/DSO/CPLD_debug/blank/blank.xst" -ofn "Z:/Desktop/DSO/CPLD_debug/blank/blank.syr" 
+xst -intstyle ise -ifn "Z:/Desktop/DSO/CPLD_debug/blank/blank.xst" -ofn "Z:/Desktop/DSO/CPLD_debug/blank/blank.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc blank.ucf -p xc9536xl-VQ44-5 blank.ngc blank.ngd  
+ngdbuild -intstyle ise -dd _ngo -uc blank.ucf -p xc9536xl-VQ44-5 blank.ngc blank.ngd  
+cpldfit -intstyle ise -p xc9536xl-5-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper blank.ngd 
+XSLTProcess blank_build.xml 
+tsim -intstyle ise blank blank.nga 
+hprep6 -s IEEE1149 -n blank -i blank 
+ngdbuild -intstyle ise -dd _ngo -uc blank.ucf -p xc9536xl-VQ44-5 blank.ngc blank.ngd  
+cpldfit -intstyle ise -p xc9536xl-5-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper blank.ngd 
+XSLTProcess blank_build.xml 
+tsim -intstyle ise blank blank.nga 
+hprep6 -s IEEE1149 -n blank -i blank 
+cpldfit -intstyle ise -p xc9536xl-5-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused ground -power std -terminate keeper blank.ngd 
+XSLTProcess blank_build.xml 
+tsim -intstyle ise blank blank.nga 
+hprep6 -s IEEE1149 -n blank -i blank 
+xst -intstyle ise -ifn "Z:/Desktop/DSO/CPLD_debug/blank/blank.xst" -ofn "Z:/Desktop/DSO/CPLD_debug/blank/blank.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc blank.ucf -p xc9536xl-VQ44-5 blank.ngc blank.ngd  
+cpldfit -intstyle ise -p xc9536xl-5-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused ground -power std -terminate keeper blank.ngd 
+XSLTProcess blank_build.xml 
+tsim -intstyle ise blank blank.nga 
+hprep6 -s IEEE1149 -n blank -i blank 
+xst -intstyle ise -ifn "Z:/Desktop/DSO/CPLD_debug/blank/blank.xst" -ofn "Z:/Desktop/DSO/CPLD_debug/blank/blank.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc blank.ucf -p xc9536xl-VQ44-5 blank.ngc blank.ngd  
+cpldfit -intstyle ise -p xc9536xl-5-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused ground -power std -terminate keeper blank.ngd 
+XSLTProcess blank_build.xml 
+tsim -intstyle ise blank blank.nga 
+hprep6 -s IEEE1149 -n blank -i blank 
+xst -intstyle ise -ifn "Z:/Desktop/DSO/CPLD_debug/blank/blank.xst" -ofn "Z:/Desktop/DSO/CPLD_debug/blank/blank.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc blank.ucf -p xc9536xl-VQ44-5 blank.ngc blank.ngd  
+cpldfit -intstyle ise -p xc9536xl-5-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused ground -power std -terminate keeper blank.ngd 
+XSLTProcess blank_build.xml 
+tsim -intstyle ise blank blank.nga 
+hprep6 -s IEEE1149 -n blank -i blank 
+xst -intstyle ise -ifn "Z:/Desktop/DSO/CPLD_debug/blank/blank.xst" -ofn "Z:/Desktop/DSO/CPLD_debug/blank/blank.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc blank.ucf -p xc9536xl-VQ44-5 blank.ngc blank.ngd  
+cpldfit -intstyle ise -p xc9536xl-5-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused ground -power std -terminate keeper blank.ngd 
+XSLTProcess blank_build.xml 
+tsim -intstyle ise blank blank.nga 
+hprep6 -s IEEE1149 -n blank -i blank 
+ngdbuild -intstyle ise -dd _ngo -uc blank.ucf -p xc9536xl-VQ44-5 blank.ngc blank.ngd  
+cpldfit -intstyle ise -p xc9536xl-5-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused ground -power std -terminate keeper blank.ngd 
+XSLTProcess blank_build.xml 
+tsim -intstyle ise blank blank.nga 
+hprep6 -s IEEE1149 -n blank -i blank 
+sch2hdl -intstyle ise -family xc9500xl -flat -suppress -vhdl blank.vhf -w Z:/Desktop/DSO/CPLD_debug/blank/blank.sch 
+xst -intstyle ise -ifn "Z:/Desktop/DSO/CPLD_debug/blank/blank.xst" -ofn "Z:/Desktop/DSO/CPLD_debug/blank/blank.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc blank.ucf -p xc9536xl-VQ44-5 blank.ngc blank.ngd  
+cpldfit -intstyle ise -p xc9536xl-5-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused ground -power std -terminate keeper blank.ngd 
+XSLTProcess blank_build.xml 
+tsim -intstyle ise blank blank.nga 
+hprep6 -s IEEE1149 -n blank -i blank 
+xst -intstyle ise -ifn "Z:/Desktop/DSO/CPLD_debug/blank/blank.xst" -ofn "Z:/Desktop/DSO/CPLD_debug/blank/blank.syr" 
+xst -intstyle ise -ifn "Z:/Desktop/DSO/CPLD_debug/blank/blank.xst" -ofn "Z:/Desktop/DSO/CPLD_debug/blank/blank.syr" 

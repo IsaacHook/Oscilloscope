@@ -1,0 +1,3 @@
+# begin LFP file Z:\Desktop\DSO\CPLD_debug\ram_read\ram_read.lfp
+designfile ram_read.ngd
+INST "ram_read" COLOR=15  ;

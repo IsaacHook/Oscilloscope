@@ -1,0 +1,8 @@
+V3 4
+FL //mac/home/Desktop/DSO/CPLD_debug/or_gate/or_gate.vhf 2017/12/05.22:54:44 P.20131013
+EN work/or_gate 1512474895 \
+      FL //mac/home/Desktop/DSO/CPLD_debug/or_gate/or_gate.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/or_gate/BEHAVIORAL 1512474896 \
+      FL //mac/home/Desktop/DSO/CPLD_debug/or_gate/or_gate.vhf EN work/or_gate 1512474895

@@ -1,0 +1,45 @@
+xst -intstyle ise -ifn "Z:/Desktop/DSO/CPLD_debug/output_high/output_high.xst" -ofn "Z:/Desktop/DSO/CPLD_debug/output_high/output_high.syr" 
+xst -intstyle ise -ifn "Z:/Desktop/DSO/CPLD_debug/output_high/output_high.xst" -ofn "Z:/Desktop/DSO/CPLD_debug/output_high/output_high.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc output_high.ucf -p xc9536xl-VQ44-5 output_high.ngc output_high.ngd  
+ngdbuild -intstyle ise -dd _ngo -uc output_high.ucf -p xc9536xl-VQ44-5 output_high.ngc output_high.ngd  
+cpldfit -intstyle ise -p xc9536xl-5-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper output_high.ngd 
+XSLTProcess output_high_build.xml 
+tsim -intstyle ise output_high output_high.nga 
+taengine -intstyle ise -f output_high -w --format html1 -l output_high_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n output_high -i output_high 
+xst -intstyle ise -ifn "Z:/Desktop/DSO/CPLD_debug/output_high/output_high.xst" -ofn "Z:/Desktop/DSO/CPLD_debug/output_high/output_high.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc output_high.ucf -p xc9536xl-VQ44-5 output_high.ngc output_high.ngd  
+cpldfit -intstyle ise -p xc9536xl-5-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper output_high.ngd 
+XSLTProcess output_high_build.xml 
+tsim -intstyle ise output_high output_high.nga 
+hprep6 -s IEEE1149 -n output_high -i output_high 
+xst -intstyle ise -ifn "Z:/Desktop/DSO/CPLD_debug/output_high/output_high.xst" -ofn "Z:/Desktop/DSO/CPLD_debug/output_high/output_high.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc output_high.ucf -p xc9536xl-VQ44-5 output_high.ngc output_high.ngd  
+cpldfit -intstyle ise -p xc9536xl-5-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper output_high.ngd 
+XSLTProcess output_high_build.xml 
+tsim -intstyle ise output_high output_high.nga 
+hprep6 -s IEEE1149 -n output_high -i output_high 
+ngdbuild -intstyle ise -dd _ngo -uc output_high.ucf -p xc9536xl-VQ44-5 output_high.ngc output_high.ngd  
+cpldfit -intstyle ise -p xc9536xl-5-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper output_high.ngd 
+XSLTProcess output_high_build.xml 
+tsim -intstyle ise output_high output_high.nga 
+hprep6 -s IEEE1149 -n output_high -i output_high 
+xst -intstyle ise -ifn "Z:/Desktop/DSO/CPLD_debug/output_high/output_high.xst" -ofn "Z:/Desktop/DSO/CPLD_debug/output_high/output_high.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc output_high.ucf -p xc9536xl-VQ44-5 output_high.ngc output_high.ngd  
+ngdbuild -intstyle ise -dd _ngo -uc output_high.ucf -p xc9536xl-VQ44-5 output_high.ngc output_high.ngd  
+ngdbuild -intstyle ise -dd _ngo -uc output_high.ucf -p xc9536xl-VQ44-5 output_high.ngc output_high.ngd  
+ngdbuild -intstyle ise -dd _ngo -uc output_high.ucf -p xc9536xl-VQ44-5 output_high.ngc output_high.ngd  
+cpldfit -intstyle ise -p xc9536xl-5-VQ44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper output_high.ngd 
+XSLTProcess output_high_build.xml 
+tsim -intstyle ise output_high output_high.nga 
+hprep6 -s IEEE1149 -n output_high -i output_high 
+xst -intstyle ise -ifn "Z:/Desktop/DSO/CPLD_debug/output_high/output_high.xst" -ofn "Z:/Desktop/DSO/CPLD_debug/output_high/output_high.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc output_high.ucf -p xc9536xl-VQ44-5 output_high.ngc output_high.ngd  
+cpldfit -intstyle ise -p xc9536xl-5-VQ44 -ofmt vhdl -optimize speed -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper output_high.ngd 
+tsim -intstyle ise output_high output_high.nga 
+hprep6 -s IEEE1149 -n output_high -i output_high 
+xst -intstyle ise -ifn "Z:/Desktop/DSO/CPLD_debug/output_high/output_high.xst" -ofn "Z:/Desktop/DSO/CPLD_debug/output_high/output_high.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc output_high.ucf -p xc9536xl-VQ44-5 output_high.ngc output_high.ngd  
+cpldfit -intstyle ise -p xc9536xl-5-VQ44 -ofmt vhdl -optimize speed -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper output_high.ngd 
+tsim -intstyle ise output_high output_high.nga 
+hprep6 -s IEEE1149 -n output_high -i output_high 

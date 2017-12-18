@@ -1,0 +1,11 @@
+MDF Database:  version 1.0
+MDF_INFO | or_gate | XC9536XL-5-VQ44
+MACROCELL | 0 | 1 | RAM_READ_OUT_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 1 | ENABLE
+INPUTP | 1 | 44
+EQ | 1 | 
+   RAM_READ_OUT = !ENABLE;
+
+PIN | ENABLE | 64 | 0 | N/A | 44 | 1 | 0 | 1
+PIN | RAM_READ_OUT | 536871040 | 0 | N/A | 8

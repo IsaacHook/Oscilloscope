@@ -1,0 +1,12 @@
+V3 12
+FL //mac/home/Desktop/DSO/CPLD/CPLD_top.vhf 2017/11/28.20:59:19 P.20131013
+FL //mac/home/Desktop/DSO/CPLD_debug/dso_outputs/CPLD_top.vhf 2017/12/17.11:40:23 P.20131013
+EN work/CPLD_top 1513471235 \
+      FL //mac/home/Desktop/DSO/CPLD_debug/dso_outputs/CPLD_top.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/CPLD_top/BEHAVIORAL 1513471236 \
+      FL //mac/home/Desktop/DSO/CPLD_debug/dso_outputs/CPLD_top.vhf \
+      EN work/CPLD_top 1513471235 CP XOR2 CP INV CP AND2 CP OR2 CP GND
+FL "D:/Dropbox/UoM/ELEN90053 - Electronic System Design/2014/Project/CPLD/VHDL/ESD_CPLD_2014/CPLD_top.vhf" 2014/10/23.19:49:02 P.20131013
+FL "E:/Dropbox/UoM/ELEN90053 - Electronic System Design/2014/Project/CPLD/VHDL/ESD_CPLD_2014/CPLD_top.vhf" 2014/08/04.21:02:22 P.20131013

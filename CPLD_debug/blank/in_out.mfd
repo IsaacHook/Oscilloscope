@@ -1,0 +1,11 @@
+MDF Database:  version 1.0
+MDF_INFO | in_out | XC9536XL-5-VQ44
+MACROCELL | 1 | 10 | out1_OBUF$BUF0
+ATTRIBUTES | 264962 | 0
+INPUTS | 1 | in1
+INPUTP | 1 | 12
+EQ | 1 | 
+   out1 = in1;
+
+PIN | in1 | 64 | 0 | N/A | 12 | 1 | 1 | 10
+PIN | out1 | 536871040 | 0 | N/A | 42
